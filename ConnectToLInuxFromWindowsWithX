@@ -21,6 +21,8 @@
     * OpenSSH Authentication Agent を右クリックし、プロパティを選択
     * スタートアップの種類を「自動」にする
     * サービスの状態を「開始」にする
+  - ssh agentに秘密鍵を登録
+    * ssh-add.exe "C:\Users\XXXX\.ssh\id_rsa"
 ・Linux
   - ホームディレクトリ下に.sshを作成。
     パーミッションは、600とする
